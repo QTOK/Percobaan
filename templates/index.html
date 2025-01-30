@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Video YouTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Download Video YouTube</h1>
+    <p>Masukkan URL video YouTube dan klik tombol Unduh.</p>
+
+    <div class="container">
+        <input type="text" id="videoUrl" class="form-control" placeholder="Tempelkan URL YouTube di sini..." />
+        <button class="btn btn-download mt-3" onclick="downloadVideo()">Unduh Video</button>
+        <p class="loading" id="loadingText">Memproses video...</p>
+    </div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

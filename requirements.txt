@@ -1,2 +1,6 @@
+Flask
+yt-dlp==2025.1.26
 gunicorn
-
+requests
+Flask-CORS
+python-dotenv
